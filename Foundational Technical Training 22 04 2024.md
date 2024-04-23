@@ -121,6 +121,8 @@
     - Non-Linear Data structure
     
     ## Different Data structures
+
+    ## 1. Linear Data structures
     
     ### Stack
     ```
@@ -169,8 +171,36 @@
         `Enqueue()` : To put element on rear of the Queue
         
         `Dequeue()` : To remove element from front of the Queue
-        
-    
-    ### Tree
-    
+
     Both the stack and queue data structures can be implemented with help of two other data structures called “array” and “linked list”
+    
+    ## Algorithms on Data structure
+    There are basically two kinds of algorithm
+    - Searching
+    - Sorting
+                
+
+    ## 1. Searching
+    - Linear Search
+    - Binary Search
+
+    # 2. Sorting
+    - Bubble sort
+    - Selection sort
+    - Insertion sort
+    - Merge sort
+    - Quick sort
+
+
+    ## 2. Non-Linear Data structures
+    ### Tree
+    - Binary Tree
+    - Binary Search Tree
+    - AVL Tree
+
+    ## Alogrithms on  tree
+    ### Tree traversals
+    - inorder 
+    - preorder
+    - postorder
+    
