@@ -26,20 +26,20 @@ For number indexed lists use numbers instead of '-'.
 6. Maintenance - Support Engineers
 
 ## Phases and Guys Responsible
-![Guys vs Phases](notes1.png)
+![Guys vs Phases](Foundational%20Technical%20Training%2023%2004%202024\notes1.png)
 
 # Agile
 Agile is a project management approach that divides the project into several smaller phases or modules and allows developers to work on cycles of planning, development and evaluation
 
 ## Agile vs Waterfall Model
-![Agile vs waterfall](image.png)
+![Agile vs waterfall](Foundational%20Technical%20Training%2023%2004%202024\image.png)
 
 The waterfall model is more rigid. Meaning, it is not flexible to adapt on-the go changes. From the requirement gathering phase everything happens in a preplanned manner without a single change. This makes it difficult to follow for a software project as softwares are not some civil project where any changes after concrete reinforcement is impossible.
 
 For that reason the developers came up with a solution of **Agile Methodology**. Agile works by dividing the software project into several phases where the changes can adapted easily on the go. It prioritised customer and developer opinions over pen & paper.
 
 # SCRUM
-![Scrum](notes3.png)
+![Scrum](Foundational%20Technical%20Training%2023%2004%202024\notes3.png)
 
 Scrum is an Agile framework, which defines the way to get work done as a team in small piece at a time. Scrum is an **agile framework** that helps people and teams to deliver value incrementally in a collaborati ve way.
 
@@ -69,6 +69,4 @@ Scrum masters are the champions of scrum within their teams. They coach teams, p
 
 ### Important Terms
 - Stakeholders - People who are responsible for the project
-
-
 
