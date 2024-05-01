@@ -68,8 +68,7 @@ FROM orders
 WHERE purch_amt > (
 				SELECT MAX(purch_amt)
 				FROM orders
-				WHERE customer_id = 3005)
-)
+				WHERE customer_id = 3005);
 
 -- Task 9
 -- Write a query to display only those customers whose grade or greater than every customer in newyork
