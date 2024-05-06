@@ -311,11 +311,7 @@ book = {
 | get( key ) | it returns the value for the specified key | book.get(”title”) | “Infinite Jest” |
 | keys( ) | it  returns a list of all the keys in the dictionary | book.keys( ) | [”title”, “rating”, “genre”] |
 | values( ) | it returns a list of all the values in the dictionary | book.values( ) | [”Infinite Jest”, 4.5, “Fiction” ] |
-| items( ) | it returns a tuple which has all the key: value  pairs of the dictionaries | book.items() | (
-[('title', “Infinite Jest”), 
-('rating', 4.5),
-('genre', “Fiction”)]
-) |
+| items( ) | it returns a tuple which has all the key: value  pairs of the dictionaries | book.items() | ([('title', “Infinite Jest”), ('rating', 4.5),('genre', “Fiction”)]) |
 
 # Sets in Python
 
