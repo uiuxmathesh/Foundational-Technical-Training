@@ -456,3 +456,40 @@ print(tanishq.display_balance())
  
 # common across objects - class variable  (cls)         - no. of eyes
 # unique across objects - instance variable (self)      - size of nose
+
+
+
+class Cat:
+    def __init__(self, name, speed):
+        self.__name = name
+        self.__speed = speed
+ 
+    # Override - (human readable)
+    def __str__(self):
+        # Human readable
+        return f"Hi, I am {self.__name} with speed {self.__speed}"
+ 
+    # Override -  (debugging)
+    def __repr__(self):
+        # Human readable
+        return f"Cat('{self.__name}', {self.__speed})"
+ 
+    def __add__(self, other):
+        return self.__speed + other.__speed
+ 
+    # Polymorphism:  Method overriding
+    def speak(self):
+        return "Meow!! 🐈"
+ 
+ 
+pichu = Cat("pichu", 30)
+snowbell = Cat("snowbell", 10)
+ 
+print(pichu)
+print(repr(pichu))
+print(repr(snowbell))
+ 
+print(pichu + snowbell)
+ 
+# x = [5, 6, 7]
+# print(dir(x))
