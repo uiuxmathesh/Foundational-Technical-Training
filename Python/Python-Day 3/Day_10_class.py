@@ -34,10 +34,19 @@ class Car:
         self.engine = engine
         self.wheels = wheels
         self.doors = doors
+    
+    def horn(self):
+        return f'{self.name} says Vroom Vroom'
 
 
 ferrari = Car("Ferrari", "v8", 4, 2)  # object
 alto = Car("Alto", "v4", 4, 4)  # object
 
-print(ferrari.name, ferrari.wheels)
+tiago = Car("Tiago","v4",4,4)
+punch = Car("Punch","v8",4,4)
 
+
+print(ferrari.name, ferrari.wheels)
+print(tiago.name, tiago.wheels)
+
+print(tiago.horn())
