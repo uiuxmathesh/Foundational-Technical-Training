@@ -44,3 +44,24 @@ bank_json = dumps(bank_dict, indent=2)
 
 print(bank_json)
 
+#Task 2
+#Same as Task 1 but using List Comprehension
+
+data = [
+    ["Name", "Age", "City"],
+    ["Alice", 30, "New York"],
+    ["Bob", 25, "Los Angeles"],
+    ["Charlie", 35, "Chicago"],
+]
+ 
+import csv
+ 
+with open("citizens.csv", "w", newline="") as file:
+    writer = csv.writer(file)  # json.dump
+    writer.writerows(data)
+ 
+ 
+with open("citizens.csv", "r", newline="") as file:
+    reader = csv.reader(file)  # json.dump
+    data = [row for row in reader]
+    print(data)
